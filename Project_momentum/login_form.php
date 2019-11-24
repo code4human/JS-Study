@@ -3,6 +3,7 @@
 <head> 
 <meta charset="utf-8">
 <title>momentum</title>
+<link href="https://fonts.googleapis.com/css?family=McLaren&display=swap&subset=latin-ext" rel="stylesheet">
 <link href="./css/login_form.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="./js/login.js"></script>
 </head>

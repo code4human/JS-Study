@@ -3,6 +3,7 @@
 <head> 
 <meta charset="utf-8">
 <title>momentum</title>
+<link href="https://fonts.googleapis.com/css?family=McLaren&display=swap&subset=latin-ext" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="./css/signup_form.css">
 <script>
    function check_input()
