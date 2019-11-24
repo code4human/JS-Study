@@ -2,8 +2,8 @@
 <html>
 <head> 
 <meta charset="utf-8">
-<title>momentum</title>
 <link href="https://fonts.googleapis.com/css?family=McLaren&display=swap&subset=latin-ext" rel="stylesheet">
+<title>momentum</title>
 <link rel="stylesheet" type="text/css" href="./css/signup_form.css">
 <script>
    function check_input()
@@ -64,50 +64,45 @@
 </head>
 <body> 
 	<section>
+    <h2>Sign Up</h2>
         <div id="main_content">
       		<div id="signup_form">
           	<form  name="signup_form" method="post" action="signup.php">
-			    <h2>Sign Up</h2>
     		    	<div class="form id">
-				        <div class="col1">What's Your E-Mail?</div><br>
-				        <div class="col2">
-							<input type="email" name="id" placeholder="name@domain.com">
-				        </div>  
-				        <div class="col3">
-				        	<a href="#"><img src="./img/check_id.gif" 
+				      <div class="col1">What's Your E-Mail?</div>
+				      <div class="col2">
+							 <input type="email" name="id" placeholder="name@domain.com">
+				      </div>  
+				      <div class="col3">
+				        <a href="#"><img class="double_check" src="./img/check_id.gif" 
 				        		onclick="check_id()"></a>
+				      </div>                 
+			       	</div>
+              <br>
+			       	<div class="form">
+				        <div class="col1">Write Down Your Password.</div>
+				        <div class="col2">
+							 <input type="password" name="pass">
 				        </div>                 
 			       	</div>
-			       	<div class="clear"></div>
-                    <br>
+              <br>
 			       	<div class="form">
-				        <div class="col1">Write Down Your Password.</div><br>
-				        <div class="col2">
-							<input type="password" name="pass">
+				        <div class="col1">Check Your Password.</div>
+                <div class="col2">
+							 <input type="password" name="pass_confirm">
 				        </div>                 
 			       	</div>
-			       	<div class="clear"></div>
+              <br>
 			       	<div class="form">
-				        <div class="col1">Check Your Password.</div><br>
-				        <div class="col2">
-							<input type="password" name="pass_confirm">
-				        </div>                 
-			       	</div>
-                    <div class="clear"></div>
-                    <br>
-			       	<div class="form">
-				        <div class="col1">What's Your Name?</div><br>
-				        <div class="col2">
+				      <div class="col1">What's Your Name?</div>
+				      <div class="col2">
 							<input type="text" name="name">
-				        </div>                 
+				      </div>                 
 			       	</div>
-                    <div class="clear"></div>
-                    <br>
-			       	<div class="bottom_line"> </div>
+
 			       	<div class="buttons">
-	                	<img style="cursor:pointer" src="./img/button_save.gif" onclick="check_input()">&nbsp;
-                  	    <img id="reset_button" style="cursor:pointer" src="./img/button_reset.gif"
-                  	onclick="reset_form()">
+	                <img class="save" style="cursor:pointer" src="./img/button_save.gif" onclick="check_input()">
+                  <img class="reset" style="cursor:pointer" src="./img/button_reset.gif" onclick="reset_form()" >
 	           	</div>
            	</form>
         	</div> <!-- signup_form -->
