@@ -18,15 +18,55 @@ body {
     position : absolute;
     right : 20px;
 }
-.time{
+#time{
     position : absolute;
     bottom : 10px; right : 100px;
     padding : 10px;
 }
-.weather{
+#weather {
     position : absolute;
     bottom : 10px; right : 20px;
     padding : 10px;
+}
+
+#checkinput {
+    position : absolute;
+    left : 50%;
+    height : 90px; width : 500px;
+    margin : -10px 0px 0px -250px;
+    padding: 10px;
+
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 5px solid white;
+
+    color: white;
+    font-size: 40px;
+    font-family : "McLaren", sans-serif;
+}
+
+#list_text {
+    position : absolute;
+    top : 52%; left : 50%;
+    height : 90px; width : 500px;
+    margin : -10px 0px 0px -250px;
+    font-size: 20px;
+    font-family : "McLaren", sans-serif;
+	display: inline-block;
+	
+}
+
+#submit {
+    position : absolute;
+    top : 35%; left : 63%;
+    height : 70px; width : 70px;
+}
+
+#deleteButton {
+    position : absolute;
+    top : -100%; right : -33%;
+    height : 70px; width : 70px;
 }
 
 #goo {
@@ -64,24 +104,18 @@ input::placeholder {
 
 #main {
     position : absolute;
-    height : 500px;
-    width : 2000px;
-    margin : -250px 0px 0px -1000px;
+    height : 600px; width : 2000px;
+    margin : -300px 0px 0px -1000px;
     top : 50%; left : 50%;
     padding : 5px;
     text-align : center;
     font-size : 70px;
 }
 
-.todo_button {
-    height : 100px; width : 200px;
-    padding : 50px;
-}
-
 .saying {
     position : relative;
     text-align : center;
-    top : 710px; left : 50%;
+    top : 730px; left : 50%;
     height : 30px; width: 480px;
     margin : 30px 0px 0px -240px;
     background-color : rgba(255,255,255, 0.5);
@@ -93,7 +127,7 @@ input::placeholder {
 .logout {
     position : relative;
     text-align : center;
-    top : 710px; left : 90%; 
+    top : 680px; left : 90%; 
     height : 50px; width: 150px;
     border-radius : 30px;
 }

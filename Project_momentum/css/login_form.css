@@ -3,23 +3,41 @@ body {
     background : linear-gradient(to right, #B0E0E6, #4169E1);
 }
 
-span {
-    position : relative;
-    height : 200; width : 400px;
-    top : 50%; left : 50%;
+#logintitle {
+    position : absolute;
+    top : -4%; left : 42%;
+    height : 200px; width : 400px;
     padding : 5px;
     font-size : 100px;
 }
 
 form {
     position : absolute;
-    height : 900px; width : 700px;
-    margin : -450px 0px 0px -350px;
-    top : 50%; left : 50%;
+    top : 55%; left : 56%;
+    height : 600px; width : 700px;
+    margin : -300px 0px 0px -350px;
     padding : 5px;
     font-size : 30px;
 }
 
+#id {
+    position : relative;
+    top : 10%; left : -7%;
+	height : 50px; width : 475px;
+    padding : 7px; margin : 10px;
+    background-color : rgba(252, 249, 249, 0.3);
+    border : solid white;
+    border-radius : 50px;
+}
+#pass {
+    position : relative;
+    top : 10%; left : -7%;
+	height : 50px; width : 475px;
+    padding : 7px; margin : 10px;
+    background-color : rgba(252, 249, 249, 0.3);
+    border : solid white;
+    border-radius : 50px;
+}
 #log_btn, #sign_btn {
     height : 150px;
     width : 500px;
